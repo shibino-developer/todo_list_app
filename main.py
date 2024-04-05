@@ -80,7 +80,7 @@ class TodoApp:
 
     def show_task_stats(self):
         # Count completed tasks
-        completed_tasks = sum(task.completed for task in self.todo_list.tasks)
+        completed_tasks = sum(1 for task in self.todo_list.tasks if task.completed)
         incomplete_tasks = len(self.todo_list.tasks) - completed_tasks
 
         # Distribution of Tasks by Category

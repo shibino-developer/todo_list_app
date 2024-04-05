@@ -8,16 +8,7 @@ class TodoList:
         self.tasks.append(task)
 
     def delete_task(self, index):
-        if 0 <= index < len(self.tasks):
-            del self.tasks[index]
+        del self.tasks[index]
 
-    def update_task(self, index, task):
-        if 0 <= index < len(self.tasks):
-            self.tasks[index] = task
-
-    def get_task(self, index):
-        if 0 <= index < len(self.tasks):
-            return self.tasks[index]
-
-    def __len__(self):
-        return len(self.tasks)
+    def update_task(self, index, new_task):
+        self.tasks[index] = new_task
