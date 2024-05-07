@@ -37,7 +37,3 @@ Contributions are welcome! Please feel free to submit bug reports, feature reque
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-For any inquiries or feedback, please contact [Your Name](mailto:your@email.com).
-Make sure to replace placeholders like [Your Name], [your@email.com], and https://github.com/your-username/TaskMaster.git with your actual information and repository URL. Additionally, customize the description, features, technologies used, installation instructions, usage guide, contributing guidelines, license details, and contact information according to your project requirements.
